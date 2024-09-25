@@ -8,3 +8,6 @@ apt install python
 apt install ruby
 apt install nala
 apt install toilet
+apt install sox mpv -y
+
+
