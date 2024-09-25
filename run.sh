@@ -10,4 +10,5 @@ apt install nala
 apt install toilet
 apt install sox mpv -y
 
-
+echo "musik sudah menyala"
+sleep 3
