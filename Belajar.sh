@@ -25,7 +25,6 @@ clear='\033[0m'
 
 
 
-
 clear
 echo
 
