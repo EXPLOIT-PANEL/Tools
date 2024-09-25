@@ -94,7 +94,7 @@ echo""
         
         echo ""
         
-        mpv djmendua.mp3>clear
+        
         
       
            
