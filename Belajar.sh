@@ -130,8 +130,8 @@ then
          sleep 2 
          echo""
          clear
-         echo "salin whatshapp di bawah ini"
-         echo "GALIRUS OFFICIAL : +62 858-5026-8349 "
+         echo "GALIRUS"
+         echo "xdg-open https://wa.me/6285850268349?text=Galirus_Ganteng_Cihuy"
          killall mpv 
          sleep 10 
          bash Belajar.sh 
