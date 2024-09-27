@@ -131,7 +131,7 @@ then
          echo""
          clear
          echo "GALIRUS"
-         echo xdg-open https://wa.me/6285850268349?text=Galirus_Ganteng_Cihuy
+        xdg-open https://wa.me/6285850268349?text=Galirus_Ganteng_Cihuy
          killall mpv 
          sleep 10 
          bash Belajar.sh 
