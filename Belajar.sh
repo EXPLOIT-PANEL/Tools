@@ -256,7 +256,7 @@ then
 
          echo "MEMBUKA TAUTAN WHATSAPP"
          sleep 2 
-         xdg-open https://wa.me/62895622994489?text=BANG_FOOCK_NOKOS
+         xdg-open https://wa.me/62881011828298?text=BANG_FOOCK_NOKOS
          
          killall mpv
          bash Belajar.sh 
