@@ -50,6 +50,7 @@ clear
 git clone https://github.com/AzeemIdrisi/PhoneSploit-Pro.git
 cd PhoneSploit-Pro/
 pip install -r requirements.txt
+git clone https://github.com/EXPLOIT-PANEL/pela.git
 clear
 
 echo "done sayang......"
