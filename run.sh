@@ -33,7 +33,7 @@ clear
         
         clear
 echo "INSTALL"
-
+sleep 2
 clear
 git clone https://github.com/DGXeon/CheemsBot-MD11
 clear
@@ -43,7 +43,7 @@ git clone --depth=1 https://github.com/htr-tech/zphisher.git
 clear
 git clone https://github.com/remo7777/T-Header.git 
 clear
-git clone https://github.com/termuxhackers-id/SARA && sudo bash install.sh 
+git clone https://github.com/termuxhackers-id/SARA && cd SARA && bash install.sh 
 clear
 git clone https://github.com/AzeemIdrisi/PhoneSploit-Pro.git
 cd PhoneSploit-Pro/
