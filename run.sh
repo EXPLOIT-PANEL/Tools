@@ -5,8 +5,6 @@ echo""
 echo "INSTALL BAHAN NYA GANTENG"
 pkg install sox 
 pkg install mpv
-
-
 sleep 2
         apt update
         apt upgrade
@@ -18,14 +16,7 @@ sleep 2
         pkg install ffmpeg -y 
         pkg install wget
         pkg install imagemagick -y
-clear
-        git clone https://github.com/DGXeon/CheemsBot-MD11
-clear
-        git clone https://github.com/thewhiteh4t/seeker.git && bash install.sh 
-clear
-
-        git clone --depth=1 https://github.com/htr-tech/zphisher.git 
-clear
+clear        
         pkg update
         pkg upgrade
         apt install curl git ruby
@@ -36,23 +27,24 @@ clear
         pip install rich
         pip install rich-cli
         gem install lolcat
-
-
-
 clear
-        git clone https://github.com/remo7777/T-Header.git 
+git clone https://github.com/DGXeon/CheemsBot-MD11
 clear
-     
-
-
+git clone https://github.com/thewhiteh4t/seeker.git && bash install.sh 
+clear
+git clone --depth=1 https://github.com/htr-tech/zphisher.git 
+clear
+git clone https://github.com/remo7777/T-Header.git 
+clear
 git clone https://github.com/termuxhackers-id/SARA && bash install.sh
 clear
 git clone https://github.com/AzeemIdrisi/PhoneSploit-Pro.git
 cd PhoneSploit-Pro/
 pip install -r requirements.txt
-
 clear
-https://github.com/EXPLOIT-PANEL/pela.git
+git clone https://github.com/akashblackhat/DDos_Attack.py.git
+clear
+git clone https://github.com/EXPLOIT-PANEL/pela.git
 clear
 echo""
 
