@@ -42,7 +42,7 @@ cd
 cd Tools
 
 if git pull > /dev/null 2>&1; then
-    echo "Update berhasil."
+    echo -e "${red} ${bold} Update berhasil."
     sleep 2 
 else
     echo "Terjadi kesalahan saat memperbarui."
