@@ -38,6 +38,17 @@ blue='\033[0;34m'
 magenta='\033[0;35m'
 cyan='\033[0;36m'
 
+cd 
+cd Tools
+
+if git pull > /dev/null 2>&1; then
+    echo "Update berhasil."
+    sleep 2 
+else
+    echo "Terjadi kesalahan saat memperbarui."
+fi
+
+
 
 # clear the color after that
 clear='\033[0m'
