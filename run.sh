@@ -33,7 +33,8 @@ clear
         
         clear
 echo "INSTALL"
-sleep 2
+git clone https://github.com/pembriahmad/DDOS
+sleep 3
 clear
 git clone https://github.com/DGXeon/CheemsBot-MD11
 clear
@@ -49,7 +50,7 @@ git clone https://github.com/AzeemIdrisi/PhoneSploit-Pro.git
 cd PhoneSploit-Pro/
 pip install -r requirements.txt
 clear
-git clone https://github.com/pembriahmad/DDOS
+
 clear
 echo""
 echo "done sayang......"
