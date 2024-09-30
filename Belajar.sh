@@ -41,10 +41,12 @@ cyan='\033[0;36m'
 if [ ! -f "run.sh" ]; then
     echo -e "${red} ${bold}"
    autoketik "run.sh belum diinstal, melakukan instalasi..."
+    
     # Tambahkan logika instalasi di sini jika diperlukan
 else
     echo "${red} ${bold}"
     authoketik "run.sh sudah terinstal."
+    sleep 2
 fi
 
 cd
@@ -54,6 +56,7 @@ cd Tools
 if git pull > /dev/null 2>&1; then
     echo -e "${red} ${bold}"
     autoketik "BERHASIL DI UPDATE"
+    sleep 2
 else
     echo "Terjadi kesalahan saat memperbarui."
 fi
