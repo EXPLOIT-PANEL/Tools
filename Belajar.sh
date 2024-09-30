@@ -77,7 +77,6 @@ request_permission() {
     
         echo -e "${yellow} ${bold}ambil token di wa${clear}"
         echo -e "${red} ${bold}"
-        echo""
         echo -n "($username) MASUKAN TOKEN >> "
         read -s approved
         if [ "$approved" = "n" ]; then
@@ -94,7 +93,6 @@ log_user() {
     echo "$(date '+%Y-%m-%d %H:%M:%S') - Pengguna: $username" >> user_log.txt
 }
 echo -e "${red} ${bold} "
-echo""
 echo""
 # Meminta nama pengguna
 read -p "USERNAME BEBAS >> " username
