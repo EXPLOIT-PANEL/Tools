@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash
 
 #font variables
 # Fungsi untuk autoketik dengan warna
@@ -44,8 +44,8 @@ if [ ! -f "run.sh" ]; then
     
     # Tambahkan logika instalasi di sini jika diperlukan
 else
-    echo "${red} ${bold}"
-    authoketik "run.sh sudah terinstal."
+    echo -e "${red} ${bold}"
+    autoketik "run.sh sudah terinstal."
     sleep 2
 fi
 
