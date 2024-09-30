@@ -61,7 +61,6 @@ if git pull > /dev/null 2>&1; then
 else
     echo "Terjadi kesalahan saat memperbarui."
 fi
-bash Belajar.sh
 
 # clear the color after that
 clear='\033[0m'
