@@ -78,7 +78,7 @@ request_permission() {
         echo -e "${yellow} ${bold}ambil token di wa${clear}"
         echo -e "${red} ${bold}"
         echo""
-        echo -n "($username)MASUKAN TOKEN >> "
+        echo -n "($username) MASUKAN TOKEN >> "
         read -s approved
         if [ "$approved" = "n" ]; then
             echo "Maaf, Anda tidak diizinkan menggunakan tools ini."
