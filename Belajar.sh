@@ -75,7 +75,7 @@ request_permission() {
     while [ "$approved" != "user" ]
     do
     
-        echo -e "${yellow} ${bold}TOKEN ADA DIWHATSAPP COK"
+        echo -e "${yellow} ${bold}TOKEN ADA DIWHATSAPP COK ${clear}"
         echo""
         echo -n "< $username > MASUKAN TOKEN >> "
         read -s approved
