@@ -5,7 +5,7 @@ echo""
 echo "INSTALL BAHAN NYA GANTENG"
 echo""
 echo""
-mpv bom.mp3>clear -& 
+mpv dana.mp3>clear
 pkg install sox 
 pkg install mpv
 sleep 2
@@ -29,7 +29,7 @@ clear
         pip install rich
         pip install rich-cli
         gem install lolcat
-        apt update
+        
         
         clear
 echo "INSTALL"
@@ -51,6 +51,7 @@ pip install -r requirements.txt
 clear
 git clone https://github.com/pembriahmad/DDOS
 clear
+echo""
 echo "done sayang......"
       sleep 2 
 
