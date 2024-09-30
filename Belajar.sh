@@ -144,10 +144,13 @@ echo""
 read -p "Pilih: " pilih
 
     if [ "$pilih" == "1" ]; then
+    mpv --volume=150 4.mp3>clear
         mpv day.mp3>clear -&
     elif [ "$pilih" == "2" ]; then
+    mpv --volume=150 4.mp3>clear
         mpv 1.mp3>clear -&
     elif [ "$pilih" == "3" ]; then
+    mpv --volume=150 4.mp3>clear
     autoketik "ANDA TIDAK MEMAKAI MUSIK"
     
     else
@@ -201,7 +204,7 @@ sleep 1
 read -p "pilih >> " pilih
 if [ $pilih = "1" ]
 then
-
+mpv --volume=150 4.mp3>clear
         echo "SCANING MODE"
         sleep 2
         cd SARA
@@ -211,6 +214,7 @@ then
 exit
 elif [ $pilih = "2" ]
 then
+mpv --volume=150 4.mp3>clear
          echo "BENTAR SAYANG"
          sleep 2 
          echo""
@@ -223,6 +227,7 @@ then
 exit
 elif [ $pilih = "3" ]
 then
+mpv --volume=150 4.mp3>clear
         clear
         echo "SCANING MODE"
         sleep2
@@ -238,6 +243,7 @@ then
 exit
 elif [ $pilih = "4" ] 
 then 
+mpv --volume=150 4.mp3>clear
       echo "SCANING MODE"
       sleep 2 
       clear 
@@ -248,6 +254,7 @@ then
 exit 
 elif [ $pilih = "5" ] 
 then 
+mpv --volume=150 4.mp3>clear
       clear
       echo "SCANING MODE"
       sleep 3 
@@ -259,6 +266,7 @@ then
 exit
 elif [ $pilih = "6" ]
 then 
+mpv --volume=150 4.mp3>clear
       echo "SCANING MODE"
       sleep 1
       echo
@@ -272,7 +280,7 @@ exit
     
 elif [ $pilih = "7" ]
 then
-         
+   mpv --volume=150 4.mp3>clear      
          echo "scaning mode........"
          sleep 3 
          clear
@@ -311,7 +319,7 @@ bash Belajar.sh
 
 elif [ $pilih = "8" ]
 then 
-       
+    mpv --volume=150 4.mp3>clear   
          clear
          echo "SCANING MODE"
          sleep 3 
@@ -329,7 +337,7 @@ clear
 
 elif [ $pilih = "9" ]
 then 
-
+mpv --volume=150 4.mp3>clear
          echo "MEMBUKA TAUTAN WHATSAPP"
          sleep 2 
          xdg-open https://wa.me/62881011828298?text=BANG_FOOCK_NOKOS
@@ -341,7 +349,7 @@ then
   exit        
 elif [ $pilih = "10" ]
 then
-    
+   mpv --volume=150 4.mp3>clear 
     clear
     echo""
     echo "SCANING MODE"
@@ -355,6 +363,7 @@ then
 
 elif [ $pilih = "11" ]
 then
+mpv --volume=150 4.mp3>clear
     sleep 2
     echo -e "${yellow} ${bold} 
     SCANING MODE"
@@ -372,7 +381,7 @@ python2 ddos.py
     exit
 elif [ $pilih = "12" ]
 then
-       
+    mpv --volume=150 4.mp3>clear   
        clear
        
         killall mpv
