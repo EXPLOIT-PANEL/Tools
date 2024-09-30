@@ -57,11 +57,11 @@ if git pull > /dev/null 2>&1; then
     echo -e "${red} ${bold}"
     autoketik "BERHASIL DI UPDATE"
     sleep 2
-    bash Belajar.sh
+
 else
     echo "Terjadi kesalahan saat memperbarui."
 fi
-
+bash Belajar.sh
 
 # clear the color after that
 clear='\033[0m'
