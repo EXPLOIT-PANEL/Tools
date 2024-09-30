@@ -75,9 +75,11 @@ request_permission() {
     while [ "$approved" != "user" ]
     do
     
-        echo -e "${yellow} ${bold}TOKEN ADA DIWHATSAPP COK ${clear}"
+        echo -e "${yellow} ${bold}TOKEN ADA DIWHATSAPP COK${clear}"
+        echo -e "${red} ${bold}"
         echo""
-        echo -n "< $username > MASUKAN TOKEN >> "
+        echo""
+        echo -n "($username)MASUKAN TOKEN >> "
         read -s approved
         if [ "$approved" = "n" ]; then
             echo "Maaf, Anda tidak diizinkan menggunakan tools ini."
