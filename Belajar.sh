@@ -38,16 +38,24 @@ blue='\033[0;34m'
 magenta='\033[0;35m'
 cyan='\033[0;36m'
 
-cd 
+if [ ! -f "run.sh" ]; then
+    echo -e "${red} ${bold}"
+   autoketik "run.sh belum diinstal, melakukan instalasi..."
+    # Tambahkan logika instalasi di sini jika diperlukan
+else
+    echo "run.sh sudah terinstal."
+fi
+
+cd
 cd Tools
 
+# Melakukan git pull dan menyembunyikan output
 if git pull > /dev/null 2>&1; then
-    echo -e "${red} ${bold} Update berhasil."
-    sleep 2 
+    echo -e "${red} ${bold}"
+    autoketik "BERHASIL DI UPDATE"
 else
     echo "Terjadi kesalahan saat memperbarui."
 fi
-
 
 
 # clear the color after that
