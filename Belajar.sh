@@ -43,7 +43,8 @@ if [ ! -f "run.sh" ]; then
    autoketik "run.sh belum diinstal, melakukan instalasi..."
     # Tambahkan logika instalasi di sini jika diperlukan
 else
-    echo "run.sh sudah terinstal."
+    echo "${red} ${bold}"
+    authoketik "run.sh sudah terinstal."
 fi
 
 cd
