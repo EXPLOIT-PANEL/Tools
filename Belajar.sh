@@ -75,7 +75,7 @@ request_permission() {
     while [ "$approved" != "user" ]
     do
     
-        echo "TOKEN ADA DIWHATSAPP COK"
+        echo -e "${yellow} ${bold}TOKEN ADA DIWHATSAPP COK"
         echo""
         echo -n "< $username > MASUKAN TOKEN >> "
         read -s approved
@@ -98,6 +98,7 @@ echo""
 # Meminta nama pengguna
 read -p "USERNAME BEBAS >> " username
 mpv --volume=150 4.mp3>clear
+echo""
 sleep 1 
 log_user "$username"
 # Mengirim pesan permintaan izin ke WhatsApp
