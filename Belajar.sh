@@ -97,8 +97,8 @@ echo""
 echo""
 # Meminta nama pengguna
 read -p "USERNAME BEBAS >> " username
+mpv --volume=150 4.mp3>clear
 sleep 1 
-clear
 log_user "$username"
 # Mengirim pesan permintaan izin ke WhatsApp
 xdg-open "https://wa.me/$ADMIN_NUMBER?text=$(echo $message | sed 's/ /%20/g')"
