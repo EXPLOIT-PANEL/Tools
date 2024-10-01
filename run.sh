@@ -70,6 +70,7 @@ clear
 echo""
 echo""
 echo "done sayang......"
+bash Belajar.sh
       sleep 2 
 
 
