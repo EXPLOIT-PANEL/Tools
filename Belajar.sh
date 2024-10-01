@@ -54,7 +54,7 @@ if [ ! -f "Bash run.sh" ]; then
     sleep 2
 
  fi   
-echo "${red} ${blod} ${clear}"
+echo "${red} ${bold} ${clear}"
 autoketik "KALO BAHAN BELUM TERINSTALL KETIK AJA BASH RUN.SH PASTIKAN INTERNETMU GAK LEMOT KAYA BEKICOT"
 sleep 4
 
