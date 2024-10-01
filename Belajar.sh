@@ -51,33 +51,8 @@ if [ ! -f "Bash run.sh" ]; then
     echo -e "${red}"
     autoketik "run.sh belum diinstal, melakukan instalasi..."
     sleep 2
-    # Tambahkan logika instalasi di sini jika diperlukan
-    # Misalnya, clone repositori yang berisi run.sh
-    REPO_URL="https://github.com/EXPLOIT-PANEL/Tools.git"  # Ganti dengan URL repositori
-    git clone "$REPO_URL"
-else
-    echo -e "${red}"
-    autoketik "run.sh sudah terinstal."
-    sleep 2
-fi
 
-# Membaca paket dari Bash run.sh
-tools=()
-while IFS= read -r line; do
-    tools+=("$line")
-done < "Bash run.sh"
-
-# Memeriksa dan menginstal alat
-for tool in "${tools[@]}"; do
-    if ! command -v "$tool" &> /dev/null; then
-        echo -e "${red}"
-        autoketik "$tool belum terinstal. Menginstal..."
-        pkg install -y "$tool"
-    else
-        echo -e "${red}"
-        autoketik "$tool sudah terinstal."
-    fi
-done
+ fi   
 
 # Melakukan git pull jika git terinstal
 if command -v git &> /dev/null; then
