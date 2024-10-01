@@ -38,14 +38,14 @@ blue='\033[0;34m'
 magenta='\033[0;35m'
 cyan='\033[0;36m'
 
-if [ ! -f "run.sh" ]; then
+if [ ! -f "bash run.sh" ]; then
     echo -e "${red} ${bold}"
-   autoketik "run.sh belum diinstal, melakukan instalasi..."
+   autoketik "bash run.sh belum diinstal, melakukan instalasi..."
     
     # Tambahkan logika instalasi di sini jika diperlukan
 else
     echo -e "${red} ${bold}"
-    autoketik "run.sh sudah terinstal."
+    autoketik "bash run.sh sudah terinstal."
     sleep 2
 fi
 
