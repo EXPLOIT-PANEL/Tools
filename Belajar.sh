@@ -48,10 +48,7 @@ if git pull > /dev/null 2>&1; then
 
 else
     echo "Terjadi kesalahan saat memperbarui."
-fi
-
-
- fi   
+fi 
 echo "${red} ${bold} ${clear}"
 mpv --volume=150 4.mp3>clear -&
 autoketik "KALO BAHAN BELUM TERINSTALL KETIK AJA BASH RUN.SH PASTIKAN INTERNETMU GAK LEMOT KAYA BEKICOT"
