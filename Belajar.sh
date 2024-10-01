@@ -44,7 +44,7 @@ cyan='\033[0;36m'
 tools=()
 while IFS= read -r line; do
     tools+=("$line")
-done < Bash\ run.sh
+
 
 # Memeriksa dan menginstal alat
 for tool in "${tools[@]}"; do
