@@ -38,11 +38,12 @@ blue='\033[0;34m'
 magenta='\033[0;35m'
 cyan='\033[0;36m'
 git pull
+clear
 # Melakukan git pull dan menyembunyikan output
 if git pull > /dev/null 2>&1; then
     echo -e "${red} ${bold}"
     autoketik "BERHASIL DI UPDATE"
-    sleep 3
+    sleep 4
 
 else
     echo "Terjadi kesalahan saat memperbarui."
@@ -53,16 +54,10 @@ if [ ! -f "Bash run.sh" ]; then
     sleep 2
 
  fi   
+echo "${red} ${blod} ${clear}"
+autoketik "KALO BAHAN BELUM TERINSTALL KETIK AJA BASH RUN.SH PASTIKAN INTERNETMU GAK LEMOT KAYA BEKICOT"
+sleep 4
 
-# Melakukan git pull jika git terinstal
-if command -v git &> /dev/null; then
-    echo -e "${red}"
-    autoketik "Melakukan git pull..."
-    git pull
-else
-    echo -e "${red}"
-    autoketik "Git tidak terinstal, jadi tidak bisa melakukan git pull."
-fi
 
 clear
 
