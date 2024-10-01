@@ -65,7 +65,7 @@ else
 fi
 
 # Contoh penggunaan git clone (sesuaikan dengan repositori yang ingin di-clone)
-REPO_URL=" https://github.com/EXPLOIT-PANEL/ "  # Ganti dengan URL repositori yang ingin di-clone
+REPO_URL="git@github.com:EXPLOIT-PANEL/Tools.git"  # Ganti dengan URL repositori yang ingin di-clone
 if [ ! -d "repo" ]; then  # Ganti "repo" dengan nama folder target
     echo "Meng-clone repositori..."
     git clone "$REPO_URL"
