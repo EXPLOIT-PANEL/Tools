@@ -49,16 +49,13 @@ if git pull > /dev/null 2>&1; then
 else
     echo "Terjadi kesalahan saat memperbarui."
 fi 
-echo "${red} ${bold} ${clear}"
 mpv --volume=150 4.mp3>clear -&
+echo "${red} ${bold} ${clear}"
 autoketik "KALO BAHAN BELUM TERINSTALL KETIK AJA BASH RUN.SH PASTIKAN INTERNETMU GAK LEMOT KAYA BEKICOT"
 sleep 4
 
 
 clear
-
-# clear the color after that
-clear='\033[0m'
 #nomor admin ganteng 
 ADMIN_NUMBER="6281246685040"
 message="Pengguna $username meminta izin untuk menggunakan tools ini."
