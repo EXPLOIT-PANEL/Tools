@@ -220,7 +220,7 @@ mpv --volume=150 4.mp3>clear
         python3 sara.py
         killall mpv
         bash Belajar.sh 
-exit
+
 elif [ $pilih = "2" ]
 then
 mpv --volume=150 4.mp3>clear
@@ -249,7 +249,7 @@ mpv --volume=150 4.mp3>clear
         
 
         
-exit
+
 elif [ $pilih = "4" ] 
 then 
 mpv --volume=150 4.mp3>clear
@@ -260,7 +260,7 @@ mpv --volume=150 4.mp3>clear
       clear
       killall mpv 
       bash Belajar.sh 
-exit 
+
 elif [ $pilih = "5" ] 
 then 
 mpv --volume=150 4.mp3>clear
@@ -272,7 +272,7 @@ mpv --volume=150 4.mp3>clear
       bash zphisher.sh
       killall mpv 
       bash Belajar.sh
-exit
+      
 elif [ $pilih = "6" ]
 then 
 mpv --volume=150 4.mp3>clear
@@ -285,7 +285,7 @@ mpv --volume=150 4.mp3>clear
       clear 
       killall mpv
       bash Belajar.sh
-exit
+
     
 elif [ $pilih = "7" ]
 then
@@ -355,7 +355,7 @@ mpv --volume=150 4.mp3>clear
          bash Belajar.sh 
          
          
-  exit        
+        
 elif [ $pilih = "10" ]
 then
    mpv --volume=150 4.mp3>clear 
@@ -367,7 +367,7 @@ then
     python 1.py
     killall mpv
     bash Belajar.sh
-    exit 
+    
 
 
 elif [ $pilih = "11" ]
@@ -387,7 +387,7 @@ python2 ddos.py
     clear
     killall mpv
     bash Belajar.sh
-    exit
+    
 
 elif [ $pilih = "12" ]
 then
@@ -400,7 +400,7 @@ mpv --volume=150 4.mp3>clear
     bash psqli.sh
     killall mpv
     bash Belajar.sh
-    exit 
+    
 
 elif [ $pilih = "13" ]
 then
@@ -412,7 +412,7 @@ sleep 3
 xdg-open https://grabify.link/
 killall mpv
 bash Belajar.sh
-exit 
+
 
 elif [ $pilih = "14" ]
 then
