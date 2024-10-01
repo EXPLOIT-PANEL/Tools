@@ -38,9 +38,14 @@ blue='\033[0;34m'
 magenta='\033[0;35m'
 cyan='\033[0;36m'
 git pull
-mpv --volume=150 4.mp3>clear -&
+
+
+
+
 echo -e "GIT PULL DONE YA SAYANG"
+mpv --volume=150 4.mp3>clear 
 sleep 3
+clear
 # Melakukan git pull dan menyembunyikan output
 if git pull > /dev/null 2>&1; then
     echo -e "${red} ${bold}"
