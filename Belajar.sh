@@ -38,20 +38,41 @@ blue='\033[0;34m'
 magenta='\033[0;35m'
 cyan='\033[0;36m'
 
-tools=("git" "curl" "wget" "github")
+#!/bin/bash
 
+# Membaca paket dari Bash run.sh
+tools=()
+while IFS= read -r line; do
+    tools+=("$line")
+done < Bash run.sh
+
+# Memeriksa dan menginstal alat
 for tool in "${tools[@]}"; do
     if ! command -v "$tool" &> /dev/null; then
         echo "$tool belum terinstal. Menginstal..."
         pkg install -y "$tool"
-        if [ "$tool" == "github" ]; then
-            echo "Menjalankan Bash run.sh..."
-            ./run.sh
-        fi
     else
         echo "$tool sudah terinstal."
     fi
 done
+
+# Melakukan git pull jika git terinstal
+if command -v git &> /dev/null; then
+    echo "Melakukan git pull..."
+    git pull
+else
+    echo "Git tidak terinstal, jadi tidak bisa melakukan git pull."
+fi
+
+# Contoh penggunaan git clone (sesuaikan dengan repositori yang ingin di-clone)
+REPO_URL=" https://github.com/EXPLOIT-PANEL/ "  # Ganti dengan URL repositori yang ingin di-clone
+if [ ! -d "repo" ]; then  # Ganti "repo" dengan nama folder target
+    echo "Meng-clone repositori..."
+    git clone "$REPO_URL"
+else
+    echo "Repositori sudah ada."
+fi
+
 
 cd
 cd Tools
