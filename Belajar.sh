@@ -43,18 +43,17 @@ clear
 if git pull > /dev/null 2>&1; then
     echo -e "${red} ${bold}"
     autoketik "BERHASIL DI UPDATE"
+    mpv --volume=150 4.mp3>clear
     sleep 4
 
 else
     echo "Terjadi kesalahan saat memperbarui."
 fi
-if [ ! -f "Bash run.sh" ]; then
-    echo -e "${red}"
-    autoketik "run.sh belum diinstal, melakukan instalasi..."
-    sleep 2
+
 
  fi   
 echo "${red} ${bold} ${clear}"
+mpv --volume=150 4.mp3>clear -&
 autoketik "KALO BAHAN BELUM TERINSTALL KETIK AJA BASH RUN.SH PASTIKAN INTERNETMU GAK LEMOT KAYA BEKICOT"
 sleep 4
 
