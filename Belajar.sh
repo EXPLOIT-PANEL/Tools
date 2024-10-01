@@ -38,7 +38,9 @@ blue='\033[0;34m'
 magenta='\033[0;35m'
 cyan='\033[0;36m'
 git pull
-clear
+mpv --volume=150 4.mp3>clear -&
+echo -e "GIT PULL DONE YA SAYANG"
+sleep 3
 # Melakukan git pull dan menyembunyikan output
 if git pull > /dev/null 2>&1; then
     echo -e "${red} ${bold}"
@@ -50,7 +52,7 @@ else
     echo "Terjadi kesalahan saat memperbarui."
 fi 
 mpv --volume=150 4.mp3>clear -&
-echo "${red} ${bold} ${clear}"
+echo -e "${red} ${bold} ${clear}"
 autoketik "KALO BAHAN BELUM TERINSTALL KETIK AJA BASH RUN.SH PASTIKAN INTERNETMU GAK LEMOT KAYA BEKICOT"
 sleep 4
 
