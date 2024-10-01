@@ -38,16 +38,20 @@ blue='\033[0;34m'
 magenta='\033[0;35m'
 cyan='\033[0;36m'
 
-if [ ! -f "bash run.sh" ]; then
-    echo -e "${red} ${bold}"
-   autoketik "bash run.sh belum diinstal, melakukan instalasi..."
-    
-    # Tambahkan logika instalasi di sini jika diperlukan
-else
-    echo -e "${red} ${bold}"
-    autoketik "bash run.sh sudah terinstal."
-    sleep 2
-fi
+tools=("git" "curl" "wget" "github")
+
+for tool in "${tools[@]}"; do
+    if ! command -v "$tool" &> /dev/null; then
+        echo "$tool belum terinstal. Menginstal..."
+        pkg install -y "$tool"
+        if [ "$tool" == "github" ]; then
+            echo "Menjalankan Bash run.sh..."
+            ./run.sh
+        fi
+    else
+        echo "$tool sudah terinstal."
+    fi
+done
 
 cd
 cd Tools
