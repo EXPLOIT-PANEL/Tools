@@ -69,8 +69,9 @@ pip install -r requirements.txt
 clear
 sleep 3
 clear
+echo "MAU BIKIN PROJEK AUTO ISNTALL BAHAN2 BELOM KETEMU MAKLUM MASIH PEMULA"
 echo""
-echo""
+sleep 3
 echo "done sayang......"
 exit
 bash Belajar.sh
