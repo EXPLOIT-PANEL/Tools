@@ -1,8 +1,29 @@
 #!/bin/bash
+function autoketik {
+    text="$1"
+    color="$2"
+    for ((i=0; i<${#text}; i++)); do
+    echo -n -e "${color}${text:i:1}"
+        sleep 0.001 # Durasi delay antar karakter
+    done
+    echo
+  
+}
 
+bold="\033[1m"
+ncol="\033[0m"
+
+# Color variables
+red='\033[0;31m'
+green='\033[0;32m'
+yellow='\033[0;33m'
+blue='\033[0;34m'
+magenta='\033[0;35m'
+cyan='\033[0;36m'
+
+echo -e "${red} ${bold}"
 echo""
-echo""
-echo "INSTALL BAHAN NYA GANTENG"
+autoketik "INSTALL BAHAN NYA GANTENG"
 echo""
 echo""
 mpv dana.mp3>clear
@@ -44,7 +65,9 @@ clear
         
         
         clear
-echo "INSTALL"
+echo""
+autoketik "NEXT INSTALL BERIKUTNYA"
+
 git clone https://github.com/cracker911181/Cracker-Tool
 sleep 3
 clear
@@ -69,10 +92,12 @@ pip install -r requirements.txt
 clear
 sleep 3
 clear
-echo "MAU BIKIN PROJEK AUTO ISNTALL BAHAN2 BELOM KETEMU MAKLUM MASIH PEMULA"
 echo""
-sleep 3
-echo "done sayang......"
+autoketik "MAU BIKIN PROJEK AUTO ISNTALL BAHAN2 BELOM KETEMU MAKLUM MASIH PEMULA"
+sleep 4
+echo""
+autoketik "done sayang......"
+sleep 4
 exit
 bash Belajar.sh
 
