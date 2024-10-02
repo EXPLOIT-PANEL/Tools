@@ -41,7 +41,35 @@ git pull
 
 
 
-bash run.sh
+while true; do
+    echo "Pilih opsi:"
+    echo "1) Install bahan"
+    echo "2) Lanjutkan"
+    echo "3) Keluar"
+    read -p "Masukkan pilihan (1/2/3): " pilihan
+
+    case $pilihan in
+        1)
+            echo "Menginstal bahan..."
+            # Tambahkan perintah untuk menginstal bahan di sini
+            bash run.sh
+            echo "Bahan sudah terinstal."
+            ;;
+        2)
+            echo "Melanjutkan proses..."
+            # Tambahkan perintah untuk melanjutkan di sini
+            ;;
+        3)
+            echo "Keluar..."
+            exit
+            ;;
+        *)
+            echo "Pilihan tidak valid. Silakan coba lagi."
+            ;;
+    esac
+done
+
+
 clear
 echo -e "GIT PULL DONE YA SAYANG"
 mpv --volume=150 4.mp3>clear 
