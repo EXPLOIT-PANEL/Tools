@@ -7,30 +7,32 @@ echo""
 echo""
 mpv dana.mp3>clear
 apt update
-apt upgrade        
+apt upgrade 
+pkg install git
+pkg install python
+pkg install python2
+pkg install python3
 pkg install sox 
 pkg install mpv
-apt install golang
-apt install nala
+pkg install golang
+pkg install nala
 sleep 2
 cleaar
         
-        apt install bash
-        apt install libwebp
-        apt install git -y
-        apt install nodejs -y 
-        apt install ffmpeg -y 
-        apt install wget
-        apt install imagemagick -y
+        pkg install bash
+        pkg install libwebp
+        pkg install git -y
+        pkg install nodejs -y 
+        pkg install ffmpeg -y 
+        pkg install wget
+        pkg install imagemagick -y
 clear        
         
-        apt install curl git ruby
+        pkg install curl git ruby
  clear       
-        apt install make clang
+        pkg install make clang
   clear      
-        apt install screen
-  clear      
-        apt install python
+        pkg install screen
   clear      
         apt install python-pip mpv
    clear     
