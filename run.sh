@@ -66,7 +66,7 @@ clear
         
         clear
 echo""
-echo -e "${red} ${bold}
+echo -e "${red} ${bold}"
 autoketik "NEXT BAHAN INSTALL BERIKUTNYA"
 autoketik "KALO ADA GIT YANG FATAL BERARTI KAMU SUDAH MENGINTALL NYA , JANGAN KAGET"
 sleep 10
