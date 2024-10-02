@@ -69,6 +69,7 @@ echo""
 echo -e "${red} ${bold}
 autoketik "NEXT BAHAN INSTALL BERIKUTNYA"
 autoketik "KALO ADA GIT YANG FATAL BERARTI KAMU SUDAH MENGINTALL NYA , JANGAN KAGET"
+sleep 10
 git clone https://github.com/cracker911181/Cracker-Tool
 sleep 3
 clear
