@@ -66,8 +66,9 @@ clear
         
         clear
 echo""
-autoketik "NEXT INSTALL BERIKUTNYA"
-
+echo -e "${red} ${bold}
+autoketik "NEXT BAHAN INSTALL BERIKUTNYA"
+autoketik "KALO ADA GIT YANG FATAL BERARTI KAMU SUDAH MENGINTALL NYA , JANGAN KAGET"
 git clone https://github.com/cracker911181/Cracker-Tool
 sleep 3
 clear
@@ -92,7 +93,7 @@ pip install -r requirements.txt
 clear
 sleep 3
 clear
-echo""
+echo -e "${red} ${bold}"
 autoketik "MAU BIKIN PROJEK AUTO ISNTALL BAHAN2 BELOM KETEMU MAKLUM MASIH PEMULA"
 sleep 4
 echo""
