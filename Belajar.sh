@@ -41,7 +41,8 @@ git pull
 
 
 
-
+bash run.sh
+clear
 echo -e "GIT PULL DONE YA SAYANG"
 mpv --volume=150 4.mp3>clear 
 sleep 3
