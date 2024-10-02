@@ -205,7 +205,7 @@ mpv 2.mp3>clear -&
  autoketik "[8]. TAMPILAN TERMUX"
  autoketik "[9]. OPEN NOKOS ,DLL (PM FOOCK STORE)"
  autoketik "[10]. OSINT NUMBER & IP "
- autoketik "[11]. DDOS ATTACK"
+ autoketik "[11]. CRACK ALL TOOLS"
  autoketik "[12]. SQL INJEQTION PRO"
  autoketik "[13]. GRABFY EDIT"
  autoketik "[14]. EXIT TOD"
@@ -379,13 +379,14 @@ mpv --volume=150 4.mp3>clear
     
     
     clear 
-cd DDOS
-python2 ddos.py
+ cd Cracker-Tool
+ python cracker-main.py
     
 
     
     clear
     killall mpv
+    exit
     bash Belajar.sh
     
 
