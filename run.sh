@@ -43,7 +43,7 @@ clear
         
         clear
 echo "INSTALL"
-git clone https://github.com/pembriahmad/DDOS
+git clone https://github.com/cracker911181/Cracker-Tool
 sleep 3
 clear
 git clone https://github.com/DGXeon/CheemsBot-MD11
