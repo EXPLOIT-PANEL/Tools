@@ -76,7 +76,7 @@ while true; do
             clear
             mpv --volume=150 4.mp3>clear
             # Ganti dengan perintah yang ingin dijalankan
-            bash NEXT.sh  # Gantilah ini dengan skrip atau perintah yang sesuai
+            bash next.sh  # Gantilah ini dengan skrip atau perintah yang sesuai
             echo "Proses telah dilanjutkan."
             ;;
         3)
