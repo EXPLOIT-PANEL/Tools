@@ -125,8 +125,7 @@ echo""
 autoketik "1. A7X SIZE THE DAY "
 autoketik "2. REGGAE JAWA KALAH"
 autoketik "3. GREEN DAY"
-autoketik "4. J-ROCK"
-autoketik "5. NO MUSIK"
+autoketik "4. exit"
 echo""
 read -p "Pilih: " pilih
 
@@ -141,10 +140,7 @@ read -p "Pilih: " pilih
         mpv  --loop=inf green.mp3>clear -&
     elif [ "$pilih" == "4" ]; then
     mpv --volume=150 4.mp3>clear
-        mpv  --loop=inf j.mp3>clear -&
-           
-    elif [ "$pilih" == "5" ]; then
-    mpv --volume=150 4.mp3>clear
+        
     autoketik "ANDA TIDAK MEMAKAI MUSIK"
     
     
