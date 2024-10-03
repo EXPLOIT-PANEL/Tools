@@ -76,7 +76,7 @@ clear
 git clone https://github.com/DGXeon/CheemsBot-MD11
 sleep 3
 clear
-git clone https://github.com/thewhiteh4t/seeker.git && bash install.sh 
+git clone https://github.com/thewhiteh4t/seeker.git && cd seeker/ && bash install.sh 
 sleep 3
 clear
 git clone --depth=1 https://github.com/htr-tech/zphisher.git 
