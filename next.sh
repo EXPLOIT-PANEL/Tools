@@ -82,7 +82,7 @@ echo""
 sleep 1 
 log_user "$username"
 # Mengirim pesan permintaan izin ke WhatsApp
-xdg-open "https://.me/$ADMIN_NUMBER?text=$(echo $message | sed 's/ /%20/g')"
+xdg-open "https://wa.me/$ADMIN_NUMBER?text=$(echo $message | sed 's/ /%20/g')"
 # Meminta izin dari pembuat bot
 request_permission
 
