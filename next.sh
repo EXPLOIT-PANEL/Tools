@@ -46,8 +46,6 @@ sleep 4
 
 clear
 #nomor admin ganteng 
-ADMIN_NUMBER="6281246685040"
-message="Pengguna $username meminta izin untuk menggunakan tools ini."
 
 clear
 # Fungsi untuk meminta izin secara manual
@@ -56,7 +54,7 @@ request_permission() {
     while [ "$approved" != "admin" ]
     do
     
-        echo -e "${yellow}${bold}ambil token di wa${clear}"
+        
         echo -e "${red} ${bold}"
         echo -n "($username) MASUKAN TOKEN >> "
         read -s approved
@@ -75,6 +73,7 @@ log_user() {
 }
 echo -e "${red} ${bold} "
 echo""
+autoketik "USERNAME BEBAS & TOKEN NYA admin"
 # Meminta nama pengguna
 read -p "USERNAME BEBAS >> " username
 mpv --volume=150 4.mp3>clear
@@ -82,7 +81,7 @@ echo""
 sleep 1 
 log_user "$username"
 # Mengirim pesan permintaan izin ke WhatsApp
-xdg-open "https://wa.me/$ADMIN_NUMBER?text=$(echo $message | sed 's/ /%20/g')"
+
 # Meminta izin dari pembuat bot
 request_permission
 
