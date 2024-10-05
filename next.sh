@@ -207,7 +207,7 @@ mpv --volume=150 4.mp3>clear
         sleep 2
         cd SARA
         python3 sara.py
-        killall mpv
+    
         bash Belajar.sh 
 
 elif [ $pilih = "2" ]
@@ -233,7 +233,7 @@ mpv --volume=150 4.mp3>clear
         yarn install
         npm start
         
-        killall mpv
+        
         bash Belajar.sh
         
 
@@ -247,7 +247,7 @@ mpv --volume=150 4.mp3>clear
       clear 
       cd seeker && python3 seeker.py 
       clear
-      killall mpv 
+      
       bash Belajar.sh 
 
 elif [ $pilih = "5" ] 
@@ -259,7 +259,7 @@ mpv --volume=150 4.mp3>clear
       clear
       cd zphisher
       bash zphisher.sh
-      killall mpv 
+      
       bash Belajar.sh
       
 elif [ $pilih = "6" ]
@@ -272,7 +272,7 @@ mpv --volume=150 4.mp3>clear
       cd PhoneSploit-Pro/
       python3 phonesploitpro.py
       clear 
-      killall mpv
+      
       bash Belajar.sh
 
     
@@ -340,7 +340,7 @@ mpv --volume=150 4.mp3>clear
          sleep 2 
          xdg-open https://wa.me/62881011828298?text=BANG_FOOCK_NOKOS
          
-         killall mpv
+         
          bash Belajar.sh 
          
          
@@ -354,7 +354,7 @@ then
     sleep 3 
     cd Tools 
     python 1.py
-    killall mpv
+    
     bash Belajar.sh
     
 
@@ -374,7 +374,7 @@ mpv --volume=150 4.mp3>clear
 
     
     clear
-    killall mpv
+    
     exit
     bash Belajar.sh
     
@@ -388,7 +388,7 @@ mpv --volume=150 4.mp3>clear
     sleep 3 
     cd Tools 
     bash psqli.sh
-    killall mpv
+
     bash Belajar.sh
     
 
@@ -400,7 +400,7 @@ echo""
 echo "SCANING MODE"
 sleep 3 
 xdg-open https://grabify.link/
-killall mpv
+
 bash Belajar.sh
 
 
@@ -409,7 +409,7 @@ then
     mpv --volume=150 4.mp3>clear   
        clear
        
-        killall mpv
+    killall mpv 
         
         echo
         echo -e "${magenta}${bold}
