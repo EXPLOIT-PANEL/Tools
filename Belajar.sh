@@ -82,6 +82,7 @@ while true; do
         3)
             echo "Keluar..."
             mpv --volume=150 4.mp3>clear
+            killall mpv
             exit
             ;;
         *)
